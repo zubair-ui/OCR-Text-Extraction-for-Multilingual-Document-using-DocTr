@@ -4,7 +4,7 @@ This project implements **Optical Character Recognition (OCR) for multilingual d
 
 ---
 
-## 📌 Features
+## Features
 
 - Text detection using deep learning–based detection models.
 - Text recognition for multilingual documents.
@@ -14,7 +14,7 @@ This project implements **Optical Character Recognition (OCR) for multilingual d
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 We trained and evaluated our models on the following datasets:
 
@@ -22,7 +22,7 @@ We trained and evaluated our models on the following datasets:
   - **FUNSD**: Form Understanding in Noisy Scanned Documents, a benchmark for document understanding on noisy scanned forms.
   - **XFUND**: A large-scale multilingual dataset designed for form understanding, covering multiple languages and document layouts.
 
-### 🌍 Languages Covered
+### Languages Covered
 
 This project focuses on OCR text extraction across **8 languages**:
 
@@ -39,7 +39,7 @@ These languages make the dataset well-suited for multilingual document analysis,
 
 ---
 
-## ⚙️ Model Training
+## Model Training
 
 The training pipeline is divided into two stages:
 
@@ -54,7 +54,7 @@ The training pipeline is divided into two stages:
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - Python
 - TensorFlow/Keras
@@ -63,7 +63,7 @@ The training pipeline is divided into two stages:
 
 ---
 
-## 📊 Results
+## Results
 
 - **Detection Model Accuracy**: 88.94%
 - **Recognition Model**: Performance lower due to limited compute resources and restricted Kaggle runtime.
@@ -72,7 +72,7 @@ The training pipeline is divided into two stages:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Train recognition model longer on high-performance GPUs for better accuracy.
 - Experiment with transformer-based OCR models.
